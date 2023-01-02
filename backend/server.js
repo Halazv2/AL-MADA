@@ -1,5 +1,5 @@
-const app = require('./app');
-
+const app = require("./app");
+const colors = require("colors");
 require("dotenv").config();
 const connectDB = require("./src/config/db.config");
 
